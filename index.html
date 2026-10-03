@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="الجنرال - الموقع الرسمي ومعرض الصور">
+<title>الجنرال | الموقع الرسمي</title>
+<style>
+:root{--gold:#d4af37;--gold2:#f2d675;--bg:#050505;--card:#111;--muted:#aaa}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:#fff;font-family:Tahoma,Arial,sans-serif}
+nav{position:fixed;top:0;right:0;left:0;z-index:10;padding:16px 6%;display:flex;justify-content:space-between;align-items:center;background:#050505cc;backdrop-filter:blur(12px);border-bottom:1px solid #33290f}
+.brand{color:var(--gold);font-weight:900;font-size:22px}.links a{color:#ddd;text-decoration:none;margin-right:22px}.links a:hover{color:var(--gold)}
+.hero{min-height:100vh;display:grid;place-items:center;text-align:center;padding:100px 20px 60px;
+background:radial-gradient(circle at 50% 25%,#4a3600 0,#171305 22%,#050505 65%)}
+.badge{width:110px;height:110px;border:2px solid var(--gold);border-radius:50%;display:grid;place-items:center;margin:auto;color:var(--gold);font-size:52px;font-weight:900;box-shadow:0 0 45px #8a6b16}
+h1{font-size:clamp(60px,14vw,130px);margin:24px 0 8px;color:var(--gold);text-shadow:0 0 35px #75590d;letter-spacing:2px}
+.subtitle{color:#ccc;font-size:20px}.btn{display:inline-block;margin-top:30px;padding:13px 28px;border:1px solid var(--gold);border-radius:30px;color:#080808;background:var(--gold);font-weight:bold;text-decoration:none}
+section{max-width:1150px;margin:auto;padding:90px 20px}.title{text-align:center;color:var(--gold);font-size:34px;margin:0 0 12px}.line{width:70px;height:2px;background:var(--gold);margin:0 auto 38px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.photo{aspect-ratio:1;border:1px solid #3b3012;border-radius:18px;overflow:hidden;background:linear-gradient(145deg,#151515,#090909);display:grid;place-items:center;position:relative}
+.photo span{color:#777}.photo b{display:block;color:var(--gold);font-size:18px;margin-top:8px}
+.photo img{width:100%;height:100%;object-fit:cover;display:block}
+.about{background:#0c0c0c;border-top:1px solid #211b0b;border-bottom:1px solid #211b0b}
+.about p{text-align:center;max-width:720px;margin:auto;color:#bbb;line-height:2;font-size:17px}
+footer{text-align:center;padding:35px;color:#777;border-top:1px solid #211b0b}.gold{color:var(--gold)}
+@media(max-width:600px){.links{display:none}section{padding:70px 15px}.gallery{grid-template-columns:repeat(2,1fr);gap:10px}.subtitle{font-size:16px}}
+</style>
+</head>
+<body>
+<nav><div class="brand">الجنرال</div><div class="links"><a href="#home">الرئيسية</a><a href="#gallery">الصور</a><a href="#about">عن الموقع</a></div></nav>
+
+<header class="hero" id="home">
+<div>
+<div class="badge">ج</div>
+<h1>الجنرال</h1>
+<div class="subtitle">الموقع الرسمي • معرض الصور</div>
+<a class="btn" href="#gallery">شاهد الصور</a>
+</div>
+</header>
+
+<section id="gallery">
+<h2 class="title">معرض الصور</h2><div class="line"></div>
+<div class="gallery">
+<div class="photo"><span>صورة 01<br><b>الجنرال</b></span></div>
+<div class="photo"><span>صورة 02<br><b>الجنرال</b></span></div>
+<div class="photo"><span>صورة 03<br><b>الجنرال</b></span></div>
+<div class="photo"><span>صورة 04<br><b>الجنرال</b></span></div>
+<div class="photo"><span>صورة 05<br><b>الجنرال</b></span></div>
+<div class="photo"><span>صورة 06<br><b>الجنرال</b></span></div>
+</div>
+</section>
+
+<section class="about" id="about">
+<h2 class="title">عن الجنرال</h2><div class="line"></div>
+<p>أهلًا بك في الموقع الرسمي للجنرال. هنا هتلاقي معرض الصور والمحتوى الخاص بالموقع في تصميم أسود وذهبي.</p>
+</section>
+<footer>© 2026 <span class="gold">الجنرال</span> — الموقع الرسمي</footer>
+</body>
+</html>
